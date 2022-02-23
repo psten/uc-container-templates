@@ -29,7 +29,26 @@
 		"repository": {
 			"url": "https://github.com/weidmueller/uc-container-templates",
 			"stackfile": "stacks/uc-addon-easyconnect-iiot/pre/1.0/docker-compose.yml"
-		}
+		},
+		"env": [{
+			"name": "ARTICLE_NAME",
+			"label": "Article Name",
+			"description": "Article Name of the Device"
+		}, {
+			"name": "ARTICLE_NUMBER",
+			"label": "Article Number",
+			"description": "Article Number of the Device"
+		}, {
+			"name": "MANUFACTURER",
+			"label": "Manufacturer",
+			"description": "Name of the Device Manufacturer",
+			"default": "Weidmüller Interface GmbH & Co. KG",
+			"preset": true
+		}, {
+			"name": "SERIALNUMBER",
+			"label": "Serial Number",
+			"description": "Serial Number of the Device"
+		}]
 	}, 
 	{
 		"type": 3,
