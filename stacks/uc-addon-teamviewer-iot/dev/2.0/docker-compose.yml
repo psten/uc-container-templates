@@ -38,3 +38,7 @@ services:
       volumes:
         - uc_addon_teamviewer_iot_agent:/tviot
         - uc_addon_teamviewer_iot_connector:/data
+
+volumes:
+  uc_addon_teamviewer_iot_agent:
+  uc_addon_teamviewer_iot_connector:

@@ -9,3 +9,6 @@ services:
       - uc_addon_node_red:/data
     environment: 
       PORT: ${PORT}
+
+volumes:
+  uc_addon_node_red:
